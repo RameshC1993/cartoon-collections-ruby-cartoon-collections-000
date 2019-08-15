@@ -40,3 +40,16 @@ def find_the_cheese(strings)
       return nil
     end
 end
+# "one".starts_with?("o") # => true
+
+def words_with_b(array)
+    new_array = []
+    i = 0
+    while  i < array.size
+    
+      if array[i].starts_with("b")
+        new_array << array[i]
+        
+    end
+    return new_array
+end
